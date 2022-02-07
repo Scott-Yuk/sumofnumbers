@@ -32,7 +32,7 @@ function sumRecursion(num) {
 console.log(sumRecursion(testNums));
 
 function sumTheSimpleWay(num) {
-  return _.reduce(num, function(memo, nums){ return memmo + nums; }, 0);
+  return _.reduce(num, function (memo, nums) { return memo + nums; }, 0);
 }
 
 console.log(sumTheSimpleWay(testNums));
